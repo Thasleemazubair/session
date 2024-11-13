@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Session variable value</h1>
+<p>The current value of the session variable is:<strong> {{ user_name}} </strong></p>
+<p>you can <a href="{% url 'delete_session' %}">delete the session variable</a>or <a href="{% url 'clear_session' %}">clear all session data</a>.</p>
+
+</body>
+</html>
